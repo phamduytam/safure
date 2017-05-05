@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"category"
+			],
+			[
+				"cat",
+				"cat_id"
+			],
+			[
+				"mo",
+				"model_cate"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"pare",
+				"parent_id"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ti",
+				"tintuc"
+			],
+			[
+				"font-",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/controllers/Category1Controller.php",
+			"settings":
+			{
+				"buffer_size": 3404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/models/Category1AR.php",
+			"settings":
+			{
+				"buffer_size": 5130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/category1/_index.php",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/category1/index.php",
+			"settings":
+			{
+				"buffer_size": 1980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/product/_index.php",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/product/index.php",
+			"settings":
+			{
+				"buffer_size": 2125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/product/edit.php",
+			"settings":
+			{
+				"buffer_size": 3057,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/views/product/add.php",
+			"settings":
+			{
+				"buffer_size": 2926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "left.php",
+			"settings":
+			{
+				"buffer_size": 4201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/admin/app/config/development.php",
+			"settings":
+			{
+				"buffer_size": 3780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/tuan/user/app/config/development.php",
+			"settings":
+			{
+				"buffer_size": 3699,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 50.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/tuan/admin/app/controllers/ProductController.php",
+		"/C/xampp/htdocs/tuan/admin/app/models/ProductAR.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/product/add.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/category1/add.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/category1/edit.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/advertise/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tintuc/edit.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/advertise/add.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/advertise/edit.php",
+		"/C/Users/NGOCSUONG/Downloads/Laravel template/index.html",
+		"/C/xampp/htdocs/tuan/admin/app/views/layouts/left.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/AdvertiseController.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/SiteController.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/site/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/site/changePassword.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/Category1Controller.php",
+		"/C/xampp/htdocs/tuan/admin/app/models/Category1AR.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/category1/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/site/profile.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/layouts/mocstyle.sublime-project",
+		"/C/xampp/htdocs/tuan/admin/app/views/layouts/main.php",
+		"/C/xampp/htdocs/tuan/admin/app/components/Controller.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/product/edit.php",
+		"/C/xampp/htdocs/tuan/admin/app/config/development.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/StaticController.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/static/add.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/TintucController.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tintuc/add.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tintuc/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tintuc/_index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/static/edit.php",
+		"/C/xampp/htdocs/tuan/admin/app/controllers/ContactController.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/contact/view.php",
+		"/C/xampp/htdocs/tuan/admin/app/models/TinTucAR.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tintuc/abc.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/product/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/contact/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/static/index.php",
+		"/C/xampp/htdocs/tuan/admin/app/views/tuvan/_index.php",
+		"/C/xampp/htdocs/tuan/user/app/config/development.php",
+		"/C/xampp/htdocs/tuan/public_html/admin/js/ckfinder/config.php",
+		"/C/xampp/htdocs/dimac_law/admin/app/config/development.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/dimac_law/public_html/index.php",
+		"/C/xampp/htdocs/dimac_law/public_html/.htpasswd",
+		"/C/xampp/htdocs/dimac_law/public_html/.htaccess",
+		"/C/xampp/htdocs/dimac_law/user/app/config/development.php",
+		"/C/Users/NGOCSUONG/Desktop/tuan/contact.html",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\tuan\\admin",
+			"C:\\xampp\\htdocs\\dimac_law\\public_html\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tuvan",
+			"TuVan",
+			"www.google-analytics.com/analytics.js",
+			"##",
+			"http://livedemo00.template-help.com/drupal_43874/",
+			"About us",
+			"http://livedemo00.template-help.com/drupal_43874/",
+			"height",
+			"slider-wrapper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TinTuc",
+			"Tintuc",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/tuan/admin/app/controllers/Category1Controller.php",
+					"settings":
+					{
+						"buffer_size": 3404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3037,
+								3037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1364.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/tuan/admin/app/models/Category1AR.php",
+					"settings":
+					{
+						"buffer_size": 5130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5128,
+								5128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/category1/_index.php",
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/category1/index.php",
+					"settings":
+					{
+						"buffer_size": 1980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/product/_index.php",
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/product/index.php",
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2109,
+								2109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/product/edit.php",
+					"settings":
+					{
+						"buffer_size": 3057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2905,
+								2905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/tuan/admin/app/views/product/add.php",
+					"settings":
+					{
+						"buffer_size": 2926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2773,
+								2773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "left.php",
+					"settings":
+					{
+						"buffer_size": 4201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/xampp/htdocs/tuan/admin/app/config/development.php",
+					"settings":
+					{
+						"buffer_size": 3780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/xampp/htdocs/tuan/user/app/config/development.php",
+					"settings":
+					{
+						"buffer_size": 3699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true
+}
