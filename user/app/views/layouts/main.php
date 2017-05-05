@@ -77,7 +77,7 @@
 	<div id="menu-mobile-display"  class="menu-mobile hidden-lg-up">
 		<div class="content-menu">
 			<div class="title-menu-mobile">
-				<a href="/">Golden mart</a>
+				<a href="<?php echo app()->baseUrl;?>/">Golden mart</a>
 			</div>
 			<div class="ft-menu-mobile">
 				<ul>
@@ -137,7 +137,7 @@
 </div>
 <div class="ft-menu-mobile">
 	<ul>
-		<li><span>Hotline <h6>0164 444 4444</h6></span><img src="themes/224896/assets/phone-menu-mobile.png?1491278158182" alt="Gọi ngay"/></li>
+		<li><span>Hotline <h6>0164 444 4444</h6></span><img src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-menu-mobile.png?1491278158182" alt="Gọi ngay"/></li>
 
 		<li><a href='/lien-he-va-gop-y'>Liên hệ và góp ý</a></li>
 
@@ -184,10 +184,19 @@
 						
 					</div>
 					<div class="search_form">
-						<form action="/search" method="get" class="search-form" role="search">
-							<input placeholder="Nhập từ khóa cần tìm..." class="search_input" maxlength="70" id="search" type="text" name="query" value="">
-							<input type="submit" value="Tìm kiếm" class="btnsearch">
-						</form>
+						<?php
+                            $form = $this->beginWidget('TbActiveForm', array(
+                                'action'=>sslUrl('san-pham/tim-kiem'),
+                                'id' => 'search-form',
+                                'method' => 'GET',
+                                'htmlOptions'=>array('enctype' => 'multipart/form-data', 'method' => 'GET')
+                                ));
+                        ?>
+                            <input name="keyword" placeholder="Nhập từ khóa cần tìm..." class="search_input" maxlength="70" id="search" type="text" value=""/>
+                            <input type="submit" value="Tìm kiếm" class="btnsearch">
+                        <?php
+                            $this->endWidget();
+                            ?>
 					</div>			
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 search_form_mobile hidden-lg-up">
@@ -214,7 +223,7 @@
 						</div>
 					</div>
 					
-					<div id="menucontent" class="col-lg-12 col-md-12 index_nav_display slideup cate-sidebar" role="menu">
+					<div id="<?php echo $this->id == 'site' ? 'menucontent' : 'menucontentother';?>" class="col-lg-12 col-md-12 <?php echo $this->id == 'site' ? 'index_nav_display' : '';?> slideup cate-sidebar " <?php echo $this->id != 'site' ? 'style="display:none"' : '';?> role="menu">
 						<ul class="site-nav vertical-nav ">
 							
 							<?php
@@ -239,6 +248,20 @@
 						$("#menucontent").removeClass("slidedown").addClass("slideup");
 				});
 
+			</script>
+			<script>
+				$(document).ready(function() {
+					$('#showmenu').click(function() {
+						$('#menucontentother').slideToggle('300');
+						return false;
+					});
+				});
+				$(".nav-drop").mouseenter(function() {
+					  $("#menucontentother").show();
+				}).mouseleave(function() {
+					  $("#menucontentother").hide();
+				});
+				
 			</script>
 
 
@@ -265,7 +288,36 @@
 
 </div>
 </nav>
+<?php if ($this->id != 'site'): ?>
+<div class="container">
+    <div class="row">
+      <div class="inner">
+        <ul class="breadcrumbs">
 
+          <li class="home"> <a title="Quay lại trang chủ" href="<?php echo app()->baseUrl;?>/">Trang chủ</a></li>
+          <?php
+                if($this->breadcrumbs)
+                {
+                    foreach ($this->breadcrumbs as $key => $value)
+                    {
+                    	if($key != '')
+                    	{
+            ?>
+            		<i class="fa fa-angle-right" aria-hidden="true"></i>
+            		<li><span><?php echo $value ? '<a href="'.$value.'">'.$key.'</a>' : $key?></span></li>
+            <?php   
+                    	}         
+                    }
+                }
+            ?>
+			
+			
+        </ul>
+      </div>
+    </div>
+  </div>
+<?php endif;?>
+<?php if($this->id == 'site'):?>
 <section class="section section-cate slideshow_full_width slide1_bgcolor">
 	<div class="container">
 		<div class="row">
@@ -278,14 +330,14 @@
 					<div class="item" id="slide1">
 						<a href="#" alt="Bộ dụng cụ làm bếp hiện đại">
 
-							<img src="themes/224896/assets/slide1.jpg?1491278158182">
+							<img src="<?php echo app()->baseUrl;?>/themes/224896/assets/slide1.jpg?1491278158182">
 						</a>
 					</div>
 					<!-- Slide 2 -->
 					<div class="item" id="slide2">
 						<a href="#"  alt="Bộ đồ dùng nhà bếp đẹp 2016">
 
-							<img src="themes/224896/assets/slide2.jpg?1491278158182">
+							<img src="<?php echo app()->baseUrl;?>/themes/224896/assets/slide2.jpg?1491278158182">
 						</a>
 					</div>
 					<!-- Slide 3-->
@@ -301,7 +353,7 @@
 				
 				<div class="service">
 					<div class="image">
-						<img class="image-sv" src="themes/224896/assets/cart-sv.png?1491278158182" alt="Sản phẩm đa dạng,</br> mẫu mã phong phú" />
+						<img class="image-sv" src="<?php echo app()->baseUrl;?>/themes/224896/assets/cart-sv.png?1491278158182" alt="Sản phẩm đa dạng,</br> mẫu mã phong phú" />
 					</div>
 					<div class="info">
 						<h5><span>Sản phẩm đa dạng,</br> mẫu mã phong phú</span></h5>
@@ -309,7 +361,7 @@
 				</div>
 				<div class="service">
 					<div class="image">
-						<img class="image-sv" src="themes/224896/assets/pig_sv.png?1491278158182" alt="Giá cả hợp lý,</br>nhiều chính sách ưu đãi" />
+						<img class="image-sv" src="<?php echo app()->baseUrl;?>/themes/224896/assets/pig_sv.png?1491278158182" alt="Giá cả hợp lý,</br>nhiều chính sách ưu đãi" />
 					</div>
 					<div class="info">
 						<h5><span>Giá cả hợp lý,</br>nhiều chính sách ưu đãi</span></h5>
@@ -317,7 +369,7 @@
 				</div>
 				<div class="service">
 					<div class="image">
-						<img class="image-sv" src="themes/224896/assets/drop.png?1491278158182" alt="Hệ thống rộng lớn </br>có mặt tại 54 tỉnh thành" />
+						<img class="image-sv" src="<?php echo app()->baseUrl;?>/themes/224896/assets/drop.png?1491278158182" alt="Hệ thống rộng lớn </br>có mặt tại 54 tỉnh thành" />
 					</div>
 					<div class="info">
 						<h5><span>Hệ thống rộng lớn </br>có mặt tại 54 tỉnh thành</span></h5>
@@ -329,7 +381,7 @@
 		</div>
 	</div>
 </section>
-
+<?php endif;?>
 
 <h1 style="display:none;">Golden mart </h1>
 <!-- TAB Product Index -->
@@ -467,8 +519,8 @@
 							<h5><span>Golden Mart</span> Hai bà trưng</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hoàn Kiếm HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hoàn Kiếm HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -477,8 +529,8 @@
 							<h5><span>Golden Mart</span> Hà đông</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hà Đông HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hà Đông HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -487,8 +539,8 @@
 							<h5><span>Golden Mart</span> Đội Cấn</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Đội Cấn HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Đội Cấn HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -497,8 +549,8 @@
 							<h5><span>Golden Mart</span> Cầu Giấy</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Cầu Giấy HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Cầu Giấy HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -515,8 +567,8 @@
 							<h5><span>Golden Mart</span> Hai bà trưng</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hoàn Kiếm HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hoàn Kiếm HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -525,8 +577,8 @@
 							<h5><span>Golden Mart</span> Hà đông</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hà Đông HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Hà Đông HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -535,8 +587,8 @@
 							<h5><span>Golden Mart</span> Đội Cấn</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Đội Cấn HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Đội Cấn HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -545,8 +597,8 @@
 							<h5><span>Golden Mart</span> Cầu Giấy</h5>
 						</div>
 						<ul class="position">
-							<li><img class="image_position" src="themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Cầu Giấy HN</span></li>
-							<li><img class="image_position" src="themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/position.png?1491278158182" alt="Golden mart"/><span>29F Hai Bà Trưng - Cầu Giấy HN</span></li>
+							<li><img class="image_position" src="<?php echo app()->baseUrl;?>/themes/224896/assets/phone-ft.png?1491278158182" alt="Golden mart"/><span>Điện thoại: 043 9366 366</span></li>
 						</ul>
 					</div>
 
@@ -593,11 +645,11 @@
 		</div>
 	</div>
 </footer>
-<script src='themes/224896/assets/option-selectors.js?1491278158182' type='text/javascript'></script>
+<script src='<?php echo app()->baseUrl;?>/themes/224896/assets/option-selectors.js?1491278158182' type='text/javascript'></script>
 <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"></script> -->
 
 
-<script src='assets/themes_support/api.jquery.js?4' type='text/javascript'></script> 
+<script src='<?php echo app()->baseUrl;?>/assets/themes_support/api.jquery.js?4' type='text/javascript'></script> 
 
 <!-- <script src='themes/224896/assets/jquery-theme.min.js?1491278158182' type='text/javascript'></script>  -->
 

@@ -31,6 +31,7 @@
 				$this->image = $this->openImage($fileName);
 
 				// *** Get width and height
+				// echo $this->image;die;
 				$this->width  = imagesx($this->image);
 				$this->height = imagesy($this->image);
 			}

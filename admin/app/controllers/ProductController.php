@@ -45,7 +45,7 @@ class ProductController extends Controller
 					{
 						$pathImage = dirname(dirname(app()->basePath)) . app()->params['imagePath'].$imageFileName;
 						$pathThumbImage = dirname(dirname(app()->basePath)) . app()->params['imagePath'].'thumbs/'.$imageFileName;
-						echo $pathThumbImage;
+
 						$imageUploadFile->saveAs($pathImage);
 						// resize
 						$this->resizeImage($pathImage);

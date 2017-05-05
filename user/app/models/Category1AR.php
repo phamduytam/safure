@@ -3,6 +3,8 @@ class Category1AR extends BaseAR
 {
 	public $word;
 	public $parent_id;
+	public $hot;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -94,7 +96,7 @@ class Category1AR extends BaseAR
 		));
 	}
 
-	private function getCriteriaListCategory()
+	private function getCriteriaListCategory($limit = '')
 	{
 		$criteria = new CDbCriteria();
 		$criteria->select = '*';
@@ -105,8 +107,15 @@ class Category1AR extends BaseAR
 		if(strlen($this->parent_id) > 0){
 			$criteria->addCondition('t.parent_id = :parent_id')->params[':parent_id'] = $this->parent_id;
 		}
+		if(strlen($this->hot) > 0){
+			$criteria->addCondition('t.hot = :hot')->params[':hot'] = 1;
+		}
 
 		$criteria->order = 't.ordering ASC';
+		if(strlen($limit) > 0){
+			$criteria->limit = $limit;
+		}
+		
 		return $criteria;
 	}
 
@@ -122,8 +131,8 @@ class Category1AR extends BaseAR
 		return $this->findAll($criteria);
 	}
 
-	public function getCategory() {
-		$criteria = $this->getCriteriaListCategory();
+	public function getCategory($limit = '') {
+		$criteria = $this->getCriteriaListCategory($limit);
 		return $this->findAll($criteria);
 	}
 }

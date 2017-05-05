@@ -7513,3 +7513,1566 @@ Stack trace:
 REQUEST_URI=/phpmyadmin/
 HTTP_REFERER=http://localhost/phpmyadmin/tbl_structure.php?db=safure&table=category_pro&token=f520a5fa940f4af73a5754453aa0d01a
 ---
+2017/05/05 05:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:13:09 [error] [php] Undefined variable: product (C:\xampp\htdocs\safure\user\app\views\site\index.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(35): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (28)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (35)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 05:14:09 [error] [php] Undefined variable: product (C:\xampp\htdocs\safure\user\app\views\site\index.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(35): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (28)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (35)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 05:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:17:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:32:53 [warning] [application] Failed to set unsafe attribute "image" of "ProductAR".
+in C:\xampp\htdocs\safure\admin\app\controllers\ProductController.php (93)
+in C:\xampp\htdocs\safure\public_html\admin\index.php (9)
+2017/05/05 05:32:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 05:33:23 [warning] [application] Failed to set unsafe attribute "image" of "ProductAR".
+in C:\xampp\htdocs\safure\admin\app\controllers\ProductController.php (93)
+in C:\xampp\htdocs\safure\public_html\admin\index.php (9)
+2017/05/05 05:33:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 06:15:21 [error] [exception.CException] exception 'CException' with message 'Property "Category1AR.img_bottom" is not defined.' in C:\xampp\htdocs\safure\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\db\ar\CActiveRecord.php(144): CComponent->__get('img_bottom')
+#1 C:\xampp\htdocs\safure\admin\app\views\category1\edit.php(50): CActiveRecord->__get('img_bottom')
+#2 C:\xampp\htdocs\safure\framework\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\safure\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(783): CController->renderPartial('edit', Array, true)
+#6 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(80): CController->render('edit', Array)
+#7 [internal function]: Category1Controller->actionEdit('1')
+#8 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(Category1Controller), Array)
+#9 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(Category1Controller), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\safure\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\safure\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): CController->run('edit')
+#14 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('category1/edit')
+#15 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/category1/edit/1
+HTTP_REFERER=http://safure.dev/admin/category1/sub1
+---
+2017/05/05 06:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/1
+---
+2017/05/05 06:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/1
+---
+2017/05/05 06:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/1
+---
+2017/05/05 06:31:55 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (226)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:38:35 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:41:02 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:43:39 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:45:24 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:45:54 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:51:21 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 06:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/1
+---
+2017/05/05 06:51:46 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:21:05 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:25:32 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:30:51 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (34)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:37:13 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (35)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:38:50 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(120): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (35)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (224)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (120)
+2017/05/05 08:40:50 [error] [php] imagesx() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\safure\admin\app\components\Resize.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php(134): Category1Controller->resizeImage()
+#1 unknown(0): Category1Controller->actionEdit()
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): Category1Controller->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): Category1Controller->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): Category1Controller->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/category1/edit/1
+in C:\xampp\htdocs\safure\admin\app\components\Resize.php (35)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (227)
+in C:\xampp\htdocs\safure\admin\app\controllers\Category1Controller.php (134)
+2017/05/05 08:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/2
+---
+2017/05/05 08:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/3
+---
+2017/05/05 08:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/4
+---
+2017/05/05 08:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/4
+---
+2017/05/05 08:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/7
+---
+2017/05/05 08:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/admin/category1/edit/7
+---
+2017/05/05 09:40:38 [error] [php] Use of undefined constant category - assumed 'category' (C:\xampp\htdocs\safure\user\app\views\site\index.php:136)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (136)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 09:40:53 [error] [php] Undefined variable: category (C:\xampp\htdocs\safure\user\app\views\site\index.php:136)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (136)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 09:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/
+HTTP_REFERER=http://safure.dev/
+---
+2017/05/05 09:52:59 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\safure\user\app\views\site\index.php:165)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (165)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 09:54:26 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\safure\user\app\views\site\index.php:166)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (166)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 09:57:00 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\safure\user\app\views\site\index.php:165)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (165)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 09:58:53 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\safure\user\app\views\site\index.php:165)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (165)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 10:01:59 [error] [php] Use of undefined constant productCat - assumed 'productCat' (C:\xampp\htdocs\safure\user\app\views\site\index.php:164)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\SiteController.php(41): SiteController->render()
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\safure\user\app\views\site\index.php (164)
+in C:\xampp\htdocs\safure\user\app\controllers\SiteController.php (41)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 10:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 10:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 10:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 10:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 10:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 10:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:37:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:45:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:49:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:53:38 [warning] [application] Failed to set unsafe attribute "image" of "ProductAR".
+in C:\xampp\htdocs\safure\admin\app\controllers\ProductController.php (93)
+in C:\xampp\htdocs\safure\public_html\admin\index.php (9)
+2017/05/05 11:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:54:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 11:59:30 [warning] [application] Failed to set unsafe attribute "image" of "ProductAR".
+in C:\xampp\htdocs\safure\admin\app\controllers\ProductController.php (93)
+in C:\xampp\htdocs\safure\public_html\admin\index.php (9)
+2017/05/05 11:59:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:04:06 [error] [php] Undefined variable: banchay (C:\xampp\htdocs\safure\user\app\views\product\detail.php:229)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CController.php(870): ProductController->renderFile()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(783): ProductController->renderPartial()
+#2 C:\xampp\htdocs\safure\user\app\controllers\ProductController.php(47): ProductController->render()
+#3 unknown(0): ProductController->actionDetail()
+#4 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\safure\framework\web\CController.php(287): ProductController->runAction()
+#8 C:\xampp\htdocs\safure\framework\web\CController.php(266): ProductController->runActionWithFilters()
+#9 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): ProductController->run()
+#10 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/chi-tiet/23/may-loc-nuoc-clevero-01a.html
+in C:\xampp\htdocs\safure\user\app\views\product\detail.php (229)
+in C:\xampp\htdocs\safure\user\app\controllers\ProductController.php (47)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 12:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:23:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:27:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/grabbing.png".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/grabbing.png
+HTTP_REFERER=http://safure.dev/themes/224896/assets/owl.carousel.css?1491278158182
+---
+2017/05/05 12:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:41:53 [error] [php] Use of undefined constant length - assumed 'length' (C:\xampp\htdocs\safure\user\app\controllers\ProductController.php:86)
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\safure\framework\web\CController.php(287): ProductController->runAction()
+#3 C:\xampp\htdocs\safure\framework\web\CController.php(266): ProductController->runActionWithFilters()
+#4 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): ProductController->run()
+#5 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\safure\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/san-pham/may-loc-nuoc-ro-truong-hoc.html
+in C:\xampp\htdocs\safure\user\app\controllers\ProductController.php (86)
+in C:\xampp\htdocs\safure\public_html\index.php (12)
+2017/05/05 12:42:01 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.total" is not defined.' in C:\xampp\htdocs\safure\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\safure\user\app\controllers\ProductController.php(86): CComponent->__get('total')
+#1 [internal function]: ProductController->actionCategory('may-loc-nuoc-ro...', '')
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): CController->run('category')
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('product/categor...')
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/san-pham/may-loc-nuoc-ro-truong-hoc.html
+HTTP_REFERER=http://safure.dev/san-pham/may-loc-nuoc-ro-gia-dinh.html
+---
+2017/05/05 12:42:08 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.num" is not defined.' in C:\xampp\htdocs\safure\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\safure\user\app\controllers\ProductController.php(86): CComponent->__get('num')
+#1 [internal function]: ProductController->actionCategory('may-loc-nuoc-ro...', '')
+#2 C:\xampp\htdocs\safure\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#3 C:\xampp\htdocs\safure\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\safure\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\safure\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\safure\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(283): CController->run('category')
+#8 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('product/categor...')
+#9 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/san-pham/may-loc-nuoc-ro-truong-hoc.html
+HTTP_REFERER=http://safure.dev/san-pham/may-loc-nuoc-ro-gia-dinh.html
+---
+2017/05/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/grabbing.png".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/grabbing.png
+HTTP_REFERER=http://safure.dev/themes/224896/assets/owl.carousel.css?1491278158182
+---
+2017/05/05 12:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gioi-thieu".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('gioi-thieu')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gioi-thieu
+HTTP_REFERER=http://safure.dev/
+---
+2017/05/05 12:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 12:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:06:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "khuyen-mai".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('khuyen-mai')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/khuyen-mai
+HTTP_REFERER=http://safure.dev/
+---
+2017/05/05 13:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---
+2017/05/05 13:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/224896/assets/bootstrap.min.css.map".' in C:\xampp\htdocs\safure\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\safure\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/224896/a...')
+#1 C:\xampp\htdocs\safure\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\safure\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/224896/assets/bootstrap.min.css.map
+---

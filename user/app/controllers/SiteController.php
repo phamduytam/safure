@@ -15,9 +15,21 @@ class SiteController extends Controller
 		$model->cat_id = 2;
 		$advertise = $model->getBanner();
 
-		//product index
+		//product index new
 		$model = new ProductAR();
-		$product = $model->getList(12);
+		$new = $model->getList(4);
+
+		// banchay
+		$banchay = $model->getBanchayList(4);
+
+		// noibat
+		$noibat = $model->getNoibatList(4);
+
+		// colection
+		
+		$model = new Category1AR();
+		$model->hot = true;
+		$category = $model->getCategory(4);
 
 		//title
 
@@ -26,7 +38,7 @@ class SiteController extends Controller
 
 		$this->layout = 'main';
 
-		$this->render('index', compact('advertise', 'product', 'title'));
+		$this->render('index', compact('advertise', 'new', 'banchay', 'noibat', 'category', 'title'));
 	}
 
 	/**

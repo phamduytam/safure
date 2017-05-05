@@ -39,6 +39,20 @@
 </div>
 
 <div class="form-group">
+	<?php echo $form->labelEx($model,'img_left'); ?>
+	<?php echo $form->fileField($model,'img_left', array('value' => $model->img_left)); ?>
+	<?php echo CHtml::image('/uploads/'.$model->img_left, 'img_left', array('width' => '50px', 'height' => '50px'))?>
+	<?php echo Chtml::hiddenField('hd_img_left', $model->img_left); ?>
+</div>
+
+<div class="form-group">
+	<?php echo $form->labelEx($model,'img_bottom'); ?>
+	<?php echo $form->fileField($model,'img_bottom', array('value' => $model->img_bottom)); ?>
+	<?php echo CHtml::image('/uploads/'.$model->img_bottom, 'img_bottom', array('width' => '500px', 'height' => '50px'))?>
+	<?php echo Chtml::hiddenField('hd_img_bottom', $model->img_bottom); ?>
+</div>
+
+<div class="form-group">
 	<?php echo $form->labelEx($model,'ordering'); ?>
 	<?php echo $form->textField($model,'ordering', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập thứ tự')); ?>
 </div>

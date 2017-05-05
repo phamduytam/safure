@@ -5,8 +5,8 @@ class ProductController extends Controller
 	{
 		$product = new ProductAR("searchListProduct");
 		$product->status = 1;
-		$content = $product->searchListProduct(15);
-		$this->layout = 'standard';
+		$content = $product->searchListProduct(16);
+		$this->layout = 'main';
 		$this->breadcrumbs = array(
 			'Sản phẩm' => ''
 			);
@@ -17,6 +17,7 @@ class ProductController extends Controller
 
 	public function actionDetail($id, $alias)
 	{
+		$this->layout = 'main';
 		$model = new ProductAR();
 		$product = $model->findByPk($id);
 		if(!$product)
@@ -25,7 +26,7 @@ class ProductController extends Controller
 		// san pham lien quan
 		$model->id = $id;
 		$model->cat_id = $product->cat_id;
-		$lienquan = $model->getListOrther(3);		
+		$lienquan = $model->getListOrther(10);
 
 		$this->breadcrumbs = array(
 			'Sản phẩm' => url('san-pham.html'),
@@ -81,13 +82,37 @@ class ProductController extends Controller
 			$this->description = $category->description;
 			$title = $category->name;	
 		}
-		$content = $product->searchListProduct(15);
-		$this->layout = 'standard';
+		$content = $product->searchListProduct(16);
+		$this->layout = 'main';
 		$this->breadcrumbs = array(
 			'Sản phẩm' => url('san-pham.html'),
 			$category->name => $category1 ? url('san-pham/'.$category->alias.'.html') : '',
 			$category1 ? $category1->name : '' => ''
 			);
+
+		$this->render('index', compact('content', 'title'));
+	}
+
+	public function actionSearch()
+	{
+		$keyword = request()->getQuery('keyword', '');
+		if($keyword == '')
+		{
+			$this->error('<div class="col-md-6">Không tìm thấy sản phẩm</div>', '404');
+			return ;
+		}
+		$product = new ProductAR("searchListProduct");
+		
+		$product->status = 1;
+		$product->word = $keyword;
+		$content = $product->searchListProduct(16);
+		//$this->layout = 'standard';
+		$this->breadcrumbs = array(
+			'Sản phẩm' => url('san-pham.html'),
+			'Tìm kiếm' => '',
+			);
+		$this->pageTitle = 'Sản phẩm';
+		$title = $this->pageTitle;
 		$this->render('index', compact('content', 'title'));
 	}
 

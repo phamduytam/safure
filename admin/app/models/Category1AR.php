@@ -40,7 +40,7 @@ class Category1AR extends BaseAR
 			array('user_id, password, name, permission, status', 'safe', 'on'=>'search'),
 			*/
 			array('name, ', 'required', 'message' => 'Vui lòng nhập {attribute} '),
-			array('created, status, parent_id, ordering, title, keyword, description, hot', 'safe')
+			array('created, status, parent_id, ordering, title, keyword, description, hot, img_left, img_bottom', 'safe')
 		);
 	}
 
@@ -68,7 +68,9 @@ class Category1AR extends BaseAR
 			'created'		=> 'Ngày tạo',
 			'ordering'		=> 'Thứ tự',
 			'parent_id'		=> 'Danh mục',
-			'hot'			=> 'Hiện ra trang chủ'
+			'hot'			=> 'Hiện ra trang chủ',
+			'img_left'		=> 'Hình ảnh bên trái (278 x 446)',
+			'img_bottom'	=> 'Hình ảnh phía dưới (1140 x 115)'
 		);
 	}
 

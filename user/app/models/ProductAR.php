@@ -57,6 +57,7 @@ class ProductAR extends BaseAR
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'category_pro'=>array(self::BELONGS_TO, 'Category1AR', 'cat_id'),
 		);
 	}
 
@@ -127,13 +128,17 @@ class ProductAR extends BaseAR
 		return $this->searchList_Ex($criteria, $pageSize, $maxPage);
 	}
 
-	public function getList($limit)
+	public function getList($limit, $offset = 0)
 	{
 		$criteria = new CDbCriteria();
 		$criteria->select = '*';
 		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		if(strlen($this->cat_id) > 0)
+			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
 		$criteria->order = 'id DESC';
 		$criteria->limit = $limit;
+		if ($offset > 0)
+			$criteria->offset = $offset;
 		return $this->findAll($criteria);
 	}
 	public function getListOrther($limit)
@@ -173,6 +178,30 @@ class ProductAR extends BaseAR
 		if(strlen($this->cat_id) > 0)
 			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
 		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		$criteria->order = 'id DESC';
+		$criteria->limit = $limit;
+		return $this->findAll($criteria);
+	}
+
+	public function getBanchayList($limit = 4) {
+		$criteria = new CDbCriteria();
+		$criteria->select = '*';
+		if(strlen($this->cat_id) > 0)
+			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
+		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		$criteria->addCondition('t.banchay = :banchay')->params[':banchay'] = 1;
+		$criteria->order = 'id DESC';
+		$criteria->limit = $limit;
+		return $this->findAll($criteria);
+	}
+
+	public function getNoibatList($limit = 4) {
+		$criteria = new CDbCriteria();
+		$criteria->select = '*';
+		if(strlen($this->cat_id) > 0)
+			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
+		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		$criteria->addCondition('t.noibat = :noibat')->params[':noibat'] = 1;
 		$criteria->order = 'id DESC';
 		$criteria->limit = $limit;
 		return $this->findAll($criteria);

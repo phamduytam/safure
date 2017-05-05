@@ -38,6 +38,16 @@
 </div>
 
 <div class="form-group">
+	<?php echo $form->labelEx($model,'img_left'); ?>
+	<?php echo $form->fileField($model,'img_left'); ?>
+</div>
+
+<div class="form-group">
+	<?php echo $form->labelEx($model,'img_bottom'); ?>
+	<?php echo $form->fileField($model,'img_bottom'); ?>
+</div>
+
+<div class="form-group">
 	<?php echo $form->labelEx($model,'ordering'); ?>
 	<?php echo $form->textField($model,'ordering', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập thứ tự')); ?>
 </div>

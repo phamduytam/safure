@@ -9,7 +9,7 @@ class Controller extends CController
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
 	 */
-	public $layout='//layouts/standard';
+	public $layout='//layouts/main';
 	/**
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */
@@ -222,5 +222,34 @@ class Controller extends CController
 		$model_tag->selected = true;
 		$tag_right = $model_tag->findAllListTag();
 		return $tag_right;
+	}
+
+	public function getProductByCatId($cat_id) {
+		$model = new ProductAR();
+		$model->cat_id = $cat_id;
+		$product = $model->getList(6);
+		if($product)
+			return $product;
+		return false;
+	}
+
+	public function getProductByCatIdLast($cat_id) {
+		$model = new ProductAR();
+		$model->cat_id = $cat_id;
+		$product = $model->getList(4, 6);
+		if($product)
+			return $product;
+		return false;
+	}
+
+	public function getBanchayList($limit = 12) {
+		//product index new
+		$model = new ProductAR();
+		// banchay
+		$product = $model->getBanchayList($limit);
+
+		if($product)
+			return $product;
+		return false;
 	}
 }
