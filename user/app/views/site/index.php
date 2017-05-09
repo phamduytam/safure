@@ -32,7 +32,7 @@
 									<div class="product-thumbnail">
 										<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
 
-											<img src="<?php echo app()->baseUrl?>/uploads/<?php echo $value->image?>" alt="<?php echo $value->name?>">
+											<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
 										</a>
 									</div>
 									<div class="item-content">
@@ -64,7 +64,7 @@
 								<div class="product-thumbnail">
 									<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
 
-										<img src="<?php echo app()->baseUrl?>/uploads/<?php echo $value->image?>" alt="<?php echo $value->name?>">
+										<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
 
 									</a>
 								</div>
@@ -98,7 +98,7 @@
 								<div class="product-thumbnail">
 									<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
 
-										<img src="<?php echo app()->baseUrl?>/uploads/<?php echo $value->image?>" alt="<?php echo $value->name?>">
+										<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
 
 									</a>
 								</div>
@@ -134,14 +134,15 @@
 
 	<!-- COLLECTION 1 -->
 	<?php if($category):?>
-		<?php foreach($category as $v):?>
-			<div class="section section_top section-collection">
+
+		<?php $i = 1; foreach($category as $v):?>
+			<div class="section section-collection">
 				<div class="container collection_pd">
 					
 					<div class="row">
 						<div class="col-lg-12  header-title">
 							
-							<div class="title-left">
+							<div class="title-left<?php echo $i>1? $i: ''?>">
 								<h2><a href='<?php echo url('/san-pham/' . $v->alias)?>'><?php echo $v->name?></a></h2>
 							</div>
 						</div>
@@ -232,22 +233,22 @@
 				</div>
 			</div>
 			<?php endif;?>
-		<?php endforeach;?>
+		<?php $i++; endforeach;?>
 	<?php endif;?>
-	
+	<?php $thuonghieu = $this->getThuonghieu();
+		if ($thuonghieu):
+	?>
 	<section class="banner-brand-wrap hidden-sm-down">
 		<div class="container banner-brand-wrap">
 			<div class="banner-brand">
 				<div id="owl-brand" class="owl-carousel owl-theme">
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand1.png?1491278158182" alt="Golden mart"/></div>
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand2.png?1491278158182" alt="Golden mart"/></div>
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand3.png?1491278158182" alt="Golden mart"/></div>
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand4.png?1491278158182" alt="Golden mart"/></div>
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand5.png?1491278158182" alt="Golden mart"/></div>
-					<div class="item"><img src="thumb/compact/100/118/174/themes/224896/assets/brand6.png?1491278158182" alt="Golden mart"/></div>
+				<?php foreach($thuonghieu as $v):?>
+					<div class="item"><img src="<?php echo app()->baseUrl?>/uploads/<?php echo $v->image?>" alt="safure"/></div>
+				<?php endforeach;?>
 				</div>
 			</div>
 		</div>
 	</section>
+	<?php endif;?>
 
 </div>

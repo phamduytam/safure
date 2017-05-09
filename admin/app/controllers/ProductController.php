@@ -51,6 +51,7 @@ class ProductController extends Controller
 						$this->resizeImage($pathImage);
 						$this->createThumbs($pathImage, $pathThumbImage);
 					}
+					$this->redirect(url('/product/add'));
 					user()->setFlash('messages', 'Add successful!!');
 				}
 

@@ -5,7 +5,7 @@ class TintucController extends Controller
 	{
 		$model = new TinTucAR();
 		$model->status = 1;
-		$content = $model->searchList(10);
+		$content = $model->searchList(3);
 		$this->breadcrumbs = array(
 			'Tin tức' => ''
 			);

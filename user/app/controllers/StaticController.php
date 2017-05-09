@@ -76,4 +76,70 @@ class StaticController extends Controller
 		if($model->delete())
 			return true;
 	}
+
+	public function actionKhuyenmai() {
+		$content = StaticAR::model()->findByPk(12);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionTuyendung() {
+		$content = StaticAR::model()->findByPk(14);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionThongtin() {
+		$content = StaticAR::model()->findByPk(15);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionHethong() {
+		$content = StaticAR::model()->findByPk(16);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionOnline() {
+		$content = StaticAR::model()->findByPk(19);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionTragop() {
+		$content = StaticAR::model()->findByPk(20);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionQuyche() {
+		$content = StaticAR::model()->findByPk(21);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionChinhsach() {
+		$content = StaticAR::model()->findByPk(22);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionBaohanh() {
+		$content = StaticAR::model()->findByPk(23);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionHoivien() {
+		$content = StaticAR::model()->findByPk(24);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
+
+	public function actionGiaohang() {
+		$content = StaticAR::model()->findByPk(25);
+		if ($content)
+			$this->render('index', compact('content'));
+	}
 }

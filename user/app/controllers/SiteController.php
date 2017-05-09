@@ -17,7 +17,7 @@ class SiteController extends Controller
 
 		//product index new
 		$model = new ProductAR();
-		$new = $model->getList(4);
+		$new = $model->getNewList(4);
 
 		// banchay
 		$banchay = $model->getBanchayList(4);

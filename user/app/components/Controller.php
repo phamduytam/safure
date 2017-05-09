@@ -74,13 +74,29 @@ class Controller extends CController
 		return $advertise;
 	}
 
+	public function getSlide() {
+		$model = new AdvertiseAR('getBanner');
+		$model->status = 1;
+		$model->cat_id = 2;
+		$advertise = $model->getSlide();
+		return $advertise;
+	}
+
+	public function getThuonghieu() {
+		$model = new AdvertiseAR();
+		$model->status = 1;
+		$model->cat_id = 7;
+		$advertise = $model->getSlide();
+		return $advertise;
+	}
+
 	public function getDescription()
 	{
 		if(strlen($this->description))
 			return strip_tags($this->description);
 		else{
 			$model = StaticAR::model()->findByPk(2);
-			$title = $this->id == 'site'? 'Bàn ghế Pallet, Đóng bàn ghế gỗ giá rẻ - 0936.730.730' : $this->pageTitle;
+			$title = $this->id == 'site'? 'Máy lọc nước sạch' : $this->pageTitle;
 			$description = $title.". ". $model->content;
 			return html_entity_decode(strip_tags($description), ENT_QUOTES, 'UTF-8');
 		}
@@ -97,11 +113,31 @@ class Controller extends CController
 		}
 	}
 
+	public function getTuvan()
+	{
+
+		$tuvan = StaticAR::model()->findByPk(17);
+		if ($tuvan)
+			return html_entity_decode(strip_tags($tuvan->content), ENT_QUOTES, 'UTF-8');
+
+		return false;
+	}
+
+	public function getHotline()
+	{
+
+		$tuvan = StaticAR::model()->findByPk(18);
+		if ($tuvan)
+			return html_entity_decode(strip_tags($tuvan->content), ENT_QUOTES, 'UTF-8');
+
+		return false;
+	}
+
 	public function getTitle()
 	{
-		$title = 'Bàn Ghế Pallet';
+		$title = 'Máy lọc nước sạch';
 		if($this->id == 'site')
-			return 'Bàn ghế Pallet, Đóng bàn ghế gỗ giá rẻ - 0936.730.730';
+			return 'Máy lọc nước sạch';
 		if(strlen($this->pageTitle) && $this->id != 'site')
 			return $this->pageTitle . ' - ' . $title;
 		else{
@@ -165,9 +201,9 @@ class Controller extends CController
 
 		if ($address && $phone && $email)
 			return array(
-				'address' => $address,
-				'phone' => $phone,
-				'email' => $email
+				'address' => html_entity_decode(strip_tags($address->content), ENT_QUOTES, 'UTF-8'),
+				'phone' => html_entity_decode(strip_tags($phone->content), ENT_QUOTES, 'UTF-8'),
+				'email' => html_entity_decode(strip_tags($email->content), ENT_QUOTES, 'UTF-8')
 				);
 		return false;
 	}

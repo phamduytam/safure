@@ -90,12 +90,14 @@ $this->pageTitle = 'Product';
 </div>
 
 <div class="form-group">
-	<?php echo $form->labelEx($model,'status'); ?>
-	<?php echo $form->checkBox($model,'status', array('checked' => $model->status)); ?>
-	<?php echo $form->labelEx($model,'noibat'); ?>
-	<?php echo $form->checkBox($model,'noibat', array('checked' => $model->noibat)); ?>
-	<?php echo $form->labelEx($model,'banchay'); ?>
-	<?php echo $form->checkBox($model,'banchay', array('checked' => $model->banchay)); ?>
+	<?php echo $form->checkBox($model,'status', array('checked' => $model->status)); ?>&nbsp;
+	<?php echo $form->labelEx($model,'status'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'noibat', array('checked' => $model->noibat)); ?>&nbsp;
+	<?php echo $form->labelEx($model,'noibat'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'banchay', array('checked' => $model->banchay)); ?>&nbsp;
+	<?php echo $form->labelEx($model,'banchay'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'hot', array('checked' => $model->hot)); ?>&nbsp;
+	<?php echo $form->labelEx($model,'hot'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 <div class="form-group">

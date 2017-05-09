@@ -107,7 +107,7 @@ class TintucController extends Controller
 
 	private function resizeImage($pathImage){
 		if(is_file($pathImage)){
-			$w = 600; $h = 430;
+			$w = 480; $h = 270;
 			// *** 1) Initialise / load image
 			$resizeObj = new resize($pathImage);
 

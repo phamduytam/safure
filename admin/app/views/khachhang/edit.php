@@ -24,10 +24,10 @@
 	<?php echo $form->textField($model,'name', array('class' => 'form-control')); ?>
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
 	<?php echo $form->labelEx($model,'description'); ?>
 	<?php echo $form->textArea($model,'description', array('class' => 'form-control', 'rows' => '5')); ?>
-</div>
+</div> -->
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'image'); ?>
@@ -36,7 +36,7 @@
 	<?php echo Chtml::hiddenField('hd_img', $model->image); ?>
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
 	<?php echo $form->labelEx($model,'content'); ?>
 	<?php echo $form->textArea($model,'content', array('class' => 'form-control')); ?>
 	<script>
@@ -48,7 +48,7 @@
 	});
 	CKFinder.setupCKEditor( editor, '<?php echo app()->baseUrl?>/js/ckfinder/' );
 	</script>
-</div>
+</div> -->
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'status'); ?>

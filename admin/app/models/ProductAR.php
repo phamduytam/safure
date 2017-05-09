@@ -42,7 +42,7 @@ class ProductAR extends BaseAR
 			array('name', 'required', 'message' => 'Vui lòng nhập tên sản phẩm'),
 			array('content', 'required', 'message' => 'Vui lòng nhập nội dung'),
 			array('image', 'file', 'allowEmpty'=>true, 'types' => 'jpg, gif, png, jpeg', 'maxSize' => 2048*1000, 'wrongType' => 'Image không đúng định dạng ', 'tooLarge' => 'Image quá lớn'),
-			array('description, order, status, cat_id, cat1_id, tag, price, baohanh, masp, noibat, banchay', 'safe')
+			array('description, order, status, cat_id, cat1_id, tag, price, baohanh, masp, noibat, banchay, hot', 'safe')
 		);
 	}
 
@@ -80,7 +80,8 @@ class ProductAR extends BaseAR
 			'baohanh'		=> 'Bảo hành',
 			'masp'			=> 'Mã sản phẩm',
 			'noibat'		=> 'Sản phẩm nỗi bật',
-			'banchay'		=> 'Sản phẩm mua nhiều'
+			'banchay'		=> 'Sản phẩm mua nhiều',
+			'hot'			=> 'Sản phẩm mới'
 		);
 	}
 

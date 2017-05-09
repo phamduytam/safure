@@ -87,12 +87,14 @@ $this->pageTitle = 'Product';
 
 
 <div class="form-group">
-	<?php echo $form->labelEx($model,'status'); ?>&nbsp;
 	<?php echo $form->checkBox($model,'status', array('checked' => 'checked')); ?>&nbsp;
-	<?php echo $form->labelEx($model,'noibat'); ?>&nbsp;
+	<?php echo $form->labelEx($model,'status'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
 	<?php echo $form->checkBox($model,'noibat'); ?>&nbsp;
-	<?php echo $form->labelEx($model,'banchay'); ?>&nbsp;
+	<?php echo $form->labelEx($model,'noibat'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
 	<?php echo $form->checkBox($model,'banchay'); ?>&nbsp;
+	<?php echo $form->labelEx($model,'banchay'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'hot'); ?>&nbsp;
+	<?php echo $form->labelEx($model,'hot'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 <div class="form-group">

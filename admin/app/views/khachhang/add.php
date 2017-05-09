@@ -24,17 +24,17 @@
 	<?php echo $form->textField($model,'name', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tiêu đề ')); ?>
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
 	<?php echo $form->labelEx($model,'description'); ?>
 	<?php echo $form->textArea($model,'description', array('class' => 'form-control', 'rows' => '5')); ?>
-</div>
+</div> -->
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'image'); ?>
 	<?php echo $form->fileField($model,'image'); ?>
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
 	<?php echo $form->labelEx($model,'content'); ?>
 	<?php echo $form->textArea($model,'content', array('class' => 'form-control')); ?>
 	<script>
@@ -47,7 +47,7 @@
 	CKFinder.setupCKEditor( editor, '<?php echo app()->baseUrl?>/js/ckfinder/' );
 	</script>
 </div>
-
+ -->
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'status'); ?>

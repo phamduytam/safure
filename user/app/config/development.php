@@ -13,7 +13,7 @@ function getSetting(){
 
 $setting = array();
 
-$setting['app_name'] = 'Bàn Ghế Pallet';
+$setting['app_name'] = 'Máy lọc nước sạch';
 $setting['adminEmail'] = '';
 $setting['enableMail'] = false;
 $setting['enableDeviceCheck'] = false; //端末チェックを行う = true
@@ -22,10 +22,10 @@ $setting['enableDateTo'] = true; //月額パック、コンテンツの終了日
 
 $setting['db_enable_slave'] = false;
 $setting['db_master'] = array(
-	'connectionString' => 'mysql:host=localhost;dbname=safure',//banghepa_db
+	'connectionString' => 'mysql:host=localhost;dbname=maylo846_db',//banghepa_db
 	'emulatePrepare' => true,
-	'username' => 'root',///banghepa_user
-	'password' => '',//admw9465zdkb
+	'username' => 'maylo846_user',///banghepa_user
+	'password' => 'KPEG4983umkp',//admw9465zdkb
 	'charset' => 'utf8',
 	'enableProfiling' => true,    // SQL文
 	'enableParamLogging' => true, // パラメータ表示に必要

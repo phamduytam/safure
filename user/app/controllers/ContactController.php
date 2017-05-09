@@ -18,8 +18,15 @@ class ContactController extends Controller
 		}
 		$tmp_model = new StaticAR();
 		$contact = $tmp_model->findByPk(1);
+
+		$diachi = $tmp_model->findByPk(5);
+
+		$dienthoai = $tmp_model->findByPk(6);
+
+		$email = $tmp_model->findByPk(7);
+
 		$this->pageTitle = 'Liên hệ';
-		$this->render('index', compact('model', 'contact'));
+		$this->render('index', compact('model', 'contact', 'diachi', 'dienthoai', 'email'));
 	}
 
 	public function actionView($id)

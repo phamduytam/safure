@@ -64,15 +64,15 @@ $this->description = $product->description;
 <div class="col-lg-3 col-md-3 col-sm-3 hidden-md-down prd_detail_col3">
 	<div>
 		<div class="in">
-			<img src="<?php echo app()->baseUrl; ?>/themes/224896/assets/free_deliverd.png?1493960184250" height="23" width="29" alt="Miễn phí vận chuyển với đơn hàng lớn hơn 1.000.000 đ">
-			<p>Miễn phí vận chuyển với đơn hàng lớn hơn 1.000.000 đ</p>
+			<img src="<?php echo app()->baseUrl; ?>/themes/224896/assets/free_deliverd.png?1493960184250" height="23" width="29" alt="Miễn phí vận chuyển với đơn hàng lớn hơn 10.000.000 đ">
+			<p>Miễn phí vận chuyển với đơn hàng lớn hơn 10.000.000 đ</p>
 		</div>
 
 	</div>
 	<div>
 		<div class="in">
-			<img src="<?php echo app()->baseUrl; ?>/themes/224896/assets/giaohangngaysaukhidat.png?1493960184250 " height="30" width="29" alt="Giao hàng ngay sau khi đặt hàng (áp dụng với Hà Nội &amp; HCM)">
-			<p>Giao hàng ngay sau khi đặt hàng (áp dụng với Hà Nội &amp; HCM)</p>
+			<img src="<?php echo app()->baseUrl; ?>/themes/224896/assets/giaohangngaysaukhidat.png?1493960184250 " height="30" width="29" alt="Giao hàng ngay sau khi đặt hàng (áp dụng với HCM)">
+			<p>Giao hàng ngay sau khi đặt hàng (áp dụng với HCM)</p>
 		</div>
 	</div>
 	<div>

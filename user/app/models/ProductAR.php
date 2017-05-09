@@ -206,4 +206,16 @@ class ProductAR extends BaseAR
 		$criteria->limit = $limit;
 		return $this->findAll($criteria);
 	}
+
+	public function getNewList($limit = 4) {
+		$criteria = new CDbCriteria();
+		$criteria->select = '*';
+		if(strlen($this->cat_id) > 0)
+			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
+		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		$criteria->addCondition('t.hot = :hot')->params[':hot'] = 1;
+		$criteria->order = 'id DESC';
+		$criteria->limit = $limit;
+		return $this->findAll($criteria);
+	}
 }

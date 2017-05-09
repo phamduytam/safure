@@ -112,7 +112,7 @@ class AdvertiseAR extends BaseAR
 		);
 		if(strlen($this->word) > 0)
 			$criteria->compare('name',$this->word,true);
-		$criteria->order = 't.id DESC';
+		$criteria->order = 't.order ASC';
 		return $criteria;
 	}
 
